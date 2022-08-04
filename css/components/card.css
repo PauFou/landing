@@ -1,0 +1,44 @@
+.work-cards .card {
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.work-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.work-cards .card img{
+  width: 80%;
+  height: 50%;
+}
+
+.work-cards .card:hover{
+  animation: square-to-circle 2s infinite alternate;
+}
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+
+  }
+  25%  {
+    border-radius:10% 10% 10% 10%;
+
+  }
+  50%  {
+    border-radius:25% 25% 25% 25%;
+
+  }
+  75%  {
+    border-radius:40% 40% 40% 40%;
+  }
+  100% {
+    border-radius:50%;
+  }
+}

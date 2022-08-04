@@ -1,0 +1,44 @@
+.call-to-action {
+  border-radius: 5px;
+  color: white;
+  padding: 15px 25px;
+  font-weight: bold;
+  background: rgb(107, 98, 255);
+  margin-bottom: 0px;
+}
+
+.call-to-action:hover {
+  animation: multi-color 0.3s infinite alternate;
+}
+
+@keyframes multi-color {
+  0%  {
+    background-color: red;
+  }
+  25%  {
+    background-color: yellow;
+  }
+  50%  {
+    background-color: green;
+  }
+  75%  {
+    background-color: black;
+  }
+  100% {
+    background-color: pink;
+  }
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  width: 100%;
+  padding-top: 150px;
+}
+
+.banner p {
+  font-size: 20px;
+  color:rgb(178, 178, 178);
+  margin-bottom: 30px;
+}
